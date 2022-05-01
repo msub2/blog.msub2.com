@@ -9,7 +9,9 @@
     "prepare": "svelte-kit sync"
   },
   "devDependencies": {
+    "@poppanator/sveltekit-svg": "^0.3.2",
     "@sveltejs/adapter-auto": "next",
+    "@sveltejs/adapter-static": "^1.0.0-next.29",
     "@sveltejs/kit": "next",
     "svelte": "^3.44.0"
   },
