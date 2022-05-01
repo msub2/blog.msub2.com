@@ -1,6 +1,7 @@
 <script>
-  export let title
-  export let date
+  export let title;
+  export let date;
+  export let categories;
 </script>
 
 <h1>{title}</h1>
@@ -9,6 +10,21 @@
 <div class='blog-post-content'>
   <slot />
 </div>
+
+{#if categories.length}
+  <aside>
+    <h2>Posted in:</h2>
+    <ul>
+      {#each categories as category}
+        <li>
+          <a href="/posts/categories/{category}">
+            {category}
+          </a>
+        </li>
+      {/each}
+    </ul>
+  </aside>
+{/if}
 
 <style>
   /* Desktops and laptops ----------- */
