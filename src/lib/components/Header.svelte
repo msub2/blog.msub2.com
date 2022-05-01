@@ -7,8 +7,11 @@
 </header>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+
   header {
     text-align: center;
+    font-family: 'Orbitron';
   }
 
   header a {
