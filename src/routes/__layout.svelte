@@ -4,10 +4,13 @@
   import '$lib/styles/style.css';
 </script>
 
-<Header />
 
-<main>
-  <slot />
-</main>
-
-<Footer />
+<div class='wrapper'>
+  <Header />
+  
+  <main>
+    <slot />
+  </main>
+  
+  <Footer />
+</div>

@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-static';
 import svg from '@poppanator/sveltekit-svg';
+import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,7 +13,16 @@ const config = {
 		vite: {
       plugins: [svg()]
     }
-	}
+	},
+	extensions: ['.svelte', '.md'],
+	preprocess: [
+		mdsvex({
+			extensions: ['.md'],
+			layout: {
+				posts: 'src/routes/posts/_post.svelte'
+			}
+		})
+	]
 };
 
 export default config;
