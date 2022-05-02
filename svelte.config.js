@@ -9,7 +9,7 @@ const config = {
 		prerender: {
 			default: true
 		},
-		trailingSlash: 'never',
+		trailingSlash: 'always',
 		vite: {
       plugins: [svg()]
     }
