@@ -2,6 +2,8 @@
   export let title;
   export let date;
   export let categories;
+  // svelte-ignore unused-export-let
+  export let description; // Unused here, only used in post listings
 </script>
 
 <h1>{title}</h1>
