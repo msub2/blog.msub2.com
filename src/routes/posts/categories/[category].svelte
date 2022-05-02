@@ -22,5 +22,9 @@
   export let posts;
 </script>
 
+<svelte:head>
+  <title>m₂ | {category}</title>
+</svelte:head>
+
 <h1>Posts under "{category}"</h1>
 <PostList posts={posts} />

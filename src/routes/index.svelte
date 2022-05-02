@@ -16,4 +16,8 @@
   export let posts;
 </script>
 
+<svelte:head>
+  <title>m₂ | Blog</title>
+</svelte:head>
+
 <PostList posts={posts} />

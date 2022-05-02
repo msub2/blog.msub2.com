@@ -14,5 +14,9 @@
   export let error;
 </script>
 
+<svelte:head>
+  <title>m₂ | {status}</title>
+</svelte:head>
+
 <h1>{status}</h1>
 <h2>{error.message}</h2>

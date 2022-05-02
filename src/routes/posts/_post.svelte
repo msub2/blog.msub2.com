@@ -6,6 +6,10 @@
   export let description; // Unused here, only used in post listings
 </script>
 
+<svelte:head>
+  <title>m₂ | {title}</title>
+</svelte:head>
+
 <h1>{title}</h1>
 <h2>Published: {date}</h2>
 
