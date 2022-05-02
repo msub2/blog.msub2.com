@@ -13,3 +13,10 @@
   
   <Footer />
 </div>
+
+<style>
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+</style>
