@@ -3,22 +3,28 @@
   import twitter from '$lib/svgs/twitter.svg?url';
   import youtube from '$lib/svgs/youtube.svg?url';
   import mastodon from '$lib/svgs/mastodon.svg?url';
+  import rss from '$lib/svgs/rss.svg?url';
 </script>
 
 <footer>
   <hr />
   <p id='copyright'>Copyright © 2022 m₂</p>
-  <a href='https://github.com/msub2' target='_blank'>
+
+  <a id='github' href='https://github.com/msub2' target='_blank'>
     <img alt='GitHub Logo' src={github} width='64' height='64'/>
   </a>
-  <a href='https://www.twitter.com/msub2official' target='_blank'>
+  <a id='twitter' href='https://www.twitter.com/msub2official' target='_blank'>
     <img alt='Twitter Logo' src={twitter} width='64' height='64' />
   </a>
-  <a href='https://www.youtube.com/channel/UCMVH8W8TRnzWFYVBQDqg93A' target='_blank'>
+  <a id='youtube' href='https://www.youtube.com/channel/UCMVH8W8TRnzWFYVBQDqg93A' target='_blank'>
     <img alt='YouTube Logo' src={youtube} width='64' height='64' />
   </a>
-  <a rel="me" href="https://widerweb.org/@msub2" target='_blank'>
+  <a id='mastodon' rel="me" href="https://widerweb.org/@msub2" target='_blank'>
     <img alt='Mastodon Logo' src={mastodon} width='64' height='64' />
+  </a>
+
+  <a id='rss' href='/rss.xml'>
+    <img alt='RSS Feed' src={rss} width='64' height='64' />
   </a>
 </footer>
 
