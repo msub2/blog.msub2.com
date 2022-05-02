@@ -1,4 +1,5 @@
 ---
+slug: "second-post"
 date: "2022-04-01"
 title: "Second blog post: I'm alive!"
 description: "Finally getting back to this blog and adding an RSS feed."

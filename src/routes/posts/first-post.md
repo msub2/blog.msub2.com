@@ -1,4 +1,5 @@
 ---
+slug: "first-post"
 date: "2021-09-22"
 title: "First blog post"
 description: "My first test post with this markdown blog."

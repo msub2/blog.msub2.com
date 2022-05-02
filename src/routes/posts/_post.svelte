@@ -1,13 +1,20 @@
 <script>
+  export let slug;
   export let title;
   export let date;
   export let categories;
-  // svelte-ignore unused-export-let
-  export let description; // Unused here, only used in post listings
+  export let description;
 </script>
 
 <svelte:head>
   <title>m₂ | {title}</title>
+  <meta name="description" content={description}>
+
+  <!-- OpenGraph Meta Tags -->
+  <meta property="og:url" content="https://blog.msub2.com/posts/{slug}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="m₂ | {title}">
+  <meta property="og:description" content={description}>
 </svelte:head>
 
 <h1>{title}</h1>
