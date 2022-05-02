@@ -4,10 +4,6 @@
   import '$lib/styles/style.css';
 </script>
 
-<svelte:head>
-  <link rel="icon" type="image/x-icon" href="/favicon.ico">
-</svelte:head>
-
 <div class='wrapper'>
   <Header />
   
