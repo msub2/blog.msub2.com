@@ -7,7 +7,7 @@
 </header>
 
 <style>
-  @import url('https://fonts.googleapis.com/css?family=Orbitron:700');
+  @import url('https://fonts.googleapis.com/css?family=Orbitron:700&display=swap');
 
   header {
     text-align: center;
