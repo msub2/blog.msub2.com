@@ -1,8 +1,10 @@
 <header>
-  <a href='https://www.msub2.com/'>Home</a>
-  <a href='https://www.msub2.com/about/'>About</a>
-  <a href='https://www.msub2.com/projects/'>Projects</a>
-  <a href='/'>Blog</a>
+  <nav>
+    <a href='https://www.msub2.com/'>Home</a>
+    <a href='https://www.msub2.com/about/'>About</a>
+    <a href='https://www.msub2.com/projects/'>Projects</a>
+    <a href='/'>Blog</a>
+  </nav>
   <hr />
 </header>
 

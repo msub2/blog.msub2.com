@@ -6,16 +6,3 @@ body {
   font-family: 'Allerta', sans-serif;
   font-size: 18px;
 }
-
-main {
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-}
-
-.wrapper {
-  min-height: 98vh;
-  display: flex;
-  flex-direction: column;
-}

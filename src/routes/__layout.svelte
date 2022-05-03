@@ -14,7 +14,7 @@
   import Header from '$lib/components/Header.svelte';
   import Footer from '$lib/components/Footer.svelte';
   import '$lib/styles/style.css';
-  import { fade, fly } from 'svelte/transition'
+  import { fade } from 'svelte/transition'
 
   export let currentRoute
 </script>
@@ -32,3 +32,18 @@
   
   <Footer />
 </div>
+
+<style>
+  main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .wrapper {
+    min-height: 98vh;
+    display: flex;
+    flex-direction: column;
+  }
+</style>
