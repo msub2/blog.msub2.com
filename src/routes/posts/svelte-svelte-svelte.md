@@ -4,6 +4,7 @@ date: "2022-05-03"
 title: "Svelte Svelte Svelte"
 description: "Making some barely visible upgrades to transition from Gatsby to SvelteKit. Also, plans!"
 categories:
+  - "fediverse"
   - "site"
   - "webxr"
 ---
