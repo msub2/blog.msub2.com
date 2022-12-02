@@ -7,4 +7,4 @@ categories:
   - "website"
 ---
 
-This is a test post to check that I've properly updated my GitHub Actions deploy properly.
+This is a test post to check that I've updated my GitHub Actions deploy properly.

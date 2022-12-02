@@ -20,5 +20,6 @@ jobs:
         username: ${{ secrets.USERNAME }}
         key: ${{ secrets.SSH_KEY }}
         rm: true
-        source: "build/*"
+        source: "build/"
         target: "${{ secrets.TARGET }}"
+        strip_components: 1
