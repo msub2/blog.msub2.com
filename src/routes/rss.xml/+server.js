@@ -2,7 +2,7 @@ const siteURL = 'https://blog.msub2.com';
 const siteTitle = 'm₂ Blog';
 const siteDescription = 'The official blog for m₂, full of random musings and writings.';
   
-export const get = async () => {
+export const GET = async () => {
   const posts = await Promise.all(
     Object.entries(import.meta.glob('./posts/*.md')).map(async ([path, resolver]) => {
       const post = await resolver();
@@ -22,10 +22,7 @@ export const get = async () => {
     'Content-Type': 'application/xml',
   };
 
-  return {
-    body,
-    headers,
-  }
+  return new Response(body, { headers });
 }
 
 const render = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>

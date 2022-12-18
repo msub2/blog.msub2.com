@@ -4,11 +4,7 @@ import { mdsvex } from 'mdsvex';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter(),
-		prerender: {
-			default: true
-		},
-		trailingSlash: 'always'
+		adapter: adapter()
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
