@@ -9,7 +9,7 @@ export const GET = async () => {
     Object.entries(import.meta.glob('../posts/**/*.md')).map(async ([path, resolver]) => {
       const post = await resolver();
       const metadata = post.metadata;
-      const slug = path.slice(2, -3);
+      const slug = path.slice(2, -8);
       const content = post.default.render().html;
       return { ...metadata, slug, content }
     })
@@ -36,9 +36,9 @@ const render = (posts) => `<?xml version="1.0" encoding="UTF-8" ?>
 <atom:link href="${siteURL}/rss.xml" rel="self" type="application/rss+xml"/>
 ${posts.map(post => `
 <item>
-<guid isPermaLink="true">${siteURL}/${post.slug}</guid>
+<guid isPermaLink="true">${siteURL}${post.slug}</guid>
 <title>${post.title}</title>
-<link>${siteURL}/${post.slug}</link>
+<link>${siteURL}${post.slug}</link>
 <description>${post.description}</description>
 <pubDate>${new Date(post.date).toUTCString()}</pubDate>
 <content:encoded>${post.content}</content:encoded>
