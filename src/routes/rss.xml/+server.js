@@ -6,7 +6,7 @@ export const prerender = true;
 
 export const GET = async () => {
   const posts = await Promise.all(
-    Object.entries(import.meta.glob('./posts/*.md')).map(async ([path, resolver]) => {
+    Object.entries(import.meta.glob('../posts/**/*.md')).map(async ([path, resolver]) => {
       const post = await resolver();
       const metadata = post.metadata;
       const slug = path.slice(2, -3);
