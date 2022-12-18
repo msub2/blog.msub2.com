@@ -1,7 +1,9 @@
 const siteURL = 'https://blog.msub2.com';
 const siteTitle = 'm₂ Blog';
 const siteDescription = 'The official blog for m₂, full of random musings and writings.';
-  
+
+export const prerender = true;
+
 export const GET = async () => {
   const posts = await Promise.all(
     Object.entries(import.meta.glob('./posts/*.md')).map(async ([path, resolver]) => {
