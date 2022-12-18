@@ -1,4 +1,4 @@
-export const get = async () => {
+export const GET = async () => {
   const allPostFiles = import.meta.glob('../posts/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
 

@@ -1,5 +1,4 @@
 import adapter from '@sveltejs/adapter-static';
-import svg from '@poppanator/sveltekit-svg';
 import { mdsvex } from 'mdsvex';
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -9,10 +8,7 @@ const config = {
 		prerender: {
 			default: true
 		},
-		trailingSlash: 'always',
-		vite: {
-      plugins: [svg()]
-    }
+		trailingSlash: 'always'
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
