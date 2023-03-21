@@ -15,6 +15,22 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="m₂ | {title}">
   <meta property="og:description" content={description}>
+
+  <script src="https://giscus.app/client.js"
+        data-repo="msub2/blog.msub2.com"
+        data-repo-id="R_kgDOHRC5fw"
+        data-category="Announcements"
+        data-category-id="DIC_kwDOHRC5f84CVA_4"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="dark_high_contrast"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+  </script>
 </svelte:head>
 
 <h1>{title}</h1>
@@ -22,6 +38,7 @@
 
 <div class='blog-post-content'>
   <slot />
+  <div class="giscus"></div>
 </div>
 
 {#if categories.length}
@@ -32,6 +49,7 @@
     {/each}
   </aside>
 {/if}
+
 
 <style>
   /* Desktops and laptops ----------- */
