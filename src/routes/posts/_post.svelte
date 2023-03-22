@@ -15,8 +15,15 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="m₂ | {title}">
   <meta property="og:description" content={description}>
+</svelte:head>
 
-  <script src="https://giscus.app/client.js"
+<h1>{title}</h1>
+<h2>Published: {date}</h2>
+
+<div class='blog-post-content'>
+  <slot />
+  <div class="giscus">
+    <script src="https://giscus.app/client.js"
         data-repo="msub2/blog.msub2.com"
         data-repo-id="R_kgDOHRC5fw"
         data-category="Announcements"
@@ -30,15 +37,8 @@
         data-lang="en"
         crossorigin="anonymous"
         async>
-  </script>
-</svelte:head>
-
-<h1>{title}</h1>
-<h2>Published: {date}</h2>
-
-<div class='blog-post-content'>
-  <slot />
-  <div class="giscus"></div>
+    </script>
+  </div>
 </div>
 
 {#if categories.length}
