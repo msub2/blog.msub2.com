@@ -8,7 +8,7 @@
 
 <footer>
   <hr />
-  <p id='copyright'>Copyright © 2022 m₂</p>
+  <p id='copyright'>Copyright © 2023 m₂</p>
   
   <nav>
     <a id='github' href='https://github.com/msub2' target='_blank' rel='noreferrer'>
