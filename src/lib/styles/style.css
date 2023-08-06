@@ -6,3 +6,13 @@ body {
   font-family: 'Allerta', sans-serif;
   font-size: 18px;
 }
+
+a {
+  text-decoration: underline;
+  color: white;
+}
+
+/* Prevent images in Markdown from spilling outside of the content div */
+p > img {
+  width: 100%;
+}
