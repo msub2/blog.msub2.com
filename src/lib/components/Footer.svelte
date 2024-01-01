@@ -4,11 +4,12 @@
   import youtube from '$lib/svgs/youtube.svg?url';
   import mastodon from '$lib/svgs/mastodon.svg?url';
   import rss from '$lib/svgs/rss.svg?url';
+  import bluesky from '$lib/svgs/bluesky.svg?url';
 </script>
 
 <footer>
   <hr />
-  <p id='copyright'>Copyright © 2023 m₂</p>
+  <p id='copyright'>Copyright © 2024 m₂</p>
   
   <nav>
     <a id='github' href='https://github.com/msub2' target='_blank' rel='noreferrer'>
@@ -22,6 +23,9 @@
     </a>
     <a id='mastodon' rel="me noreferrer" href="https://widerweb.org/@msub2" target='_blank'>
       <img alt='Mastodon Logo' src={mastodon} width='64' height='64' />
+    </a>
+    <a id="bluesky" rel="me noreferrer" href="https://bsky.app/profile/msub2.com" target="_blank">
+      <img alt="Bluesky Logo" src={bluesky} width="64" height="64">
     </a>
     <a id='rss' href='/rss.xml'>
       <img alt='RSS Feed' src={rss} width='64' height='64' />
