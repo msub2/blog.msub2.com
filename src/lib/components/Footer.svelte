@@ -21,7 +21,7 @@
     <a id='youtube' href='https://www.youtube.com/channel/UCMVH8W8TRnzWFYVBQDqg93A' target='_blank' rel='noreferrer'>
       <img alt='YouTube Logo' src={youtube} width='64' height='64' />
     </a>
-    <a id='mastodon' rel="me noreferrer" href="https://widerweb.org/@msub2" target='_blank'>
+    <a id='mastodon' rel="me noreferrer" href="https://arvr.social/@msub2" target='_blank'>
       <img alt='Mastodon Logo' src={mastodon} width='64' height='64' />
     </a>
     <a id="bluesky" rel="me noreferrer" href="https://bsky.app/profile/msub2.com" target="_blank">
