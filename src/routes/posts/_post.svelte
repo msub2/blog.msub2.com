@@ -1,4 +1,5 @@
 <script>
+  import Giscus from '@giscus/svelte';
   export let slug;
   export let title;
   export let date;
@@ -22,23 +23,20 @@
 
 <div class='blog-post-content'>
   <slot />
-  <div class="giscus">
-    <script src="https://giscus.app/client.js"
-        data-repo="msub2/blog.msub2.com"
-        data-repo-id="R_kgDOHRC5fw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOHRC5f84CVA_4"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="dark_high_contrast"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-    </script>
-  </div>
+  <Giscus
+    repo="msub2/blog.msub2.com"
+    repoId="R_kgDOHRC5fw"
+    category="Announcements"
+    categoryId="DIC_kwDOHRC5f84CVA_4"
+    mapping="pathname"
+    strict="0"
+    reactionsEnabled="1"
+    emitMetadata="0"
+    inputPosition="top"
+    theme="dark_high_contrast"
+    lang="en"
+    crossorigin="anonymous"
+    loading="lazy" />
 </div>
 
 {#if categories.length}
