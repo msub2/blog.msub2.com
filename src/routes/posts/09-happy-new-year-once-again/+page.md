@@ -21,9 +21,9 @@ As for the others, well, I've decided to put them all on ice for now. Too many d
 Maybe that'll change someday, but for this year I want to clear my slate and refocus on two primary ideas.
 
 The first idea I've had will be another contribution to The Unseen City, specifically The Outskirts.
-I want to create a very stripped down exploration game inside a giant concrete megastrcture. Think the architecture of NaissanceE, with the vibes of The Aether from Vertigo 2.
+I want to create a very stripped down exploration game inside a giant concrete megastructure. Think the architecture of NaissanceE, with the vibes of The Aether from Vertigo 2.
 More than anything I want to nail the feeling of having stepped into an unknowable space, something you can tell was built with a purpose but one that you can't possibly  fathom.
-I believe The Utility Room also does something in this vein (based on the view clips I've seen of it), so I might play that as well for further inspiration.
+I believe The Utility Room also does something in this vein (based on the few clips I've seen of it), so I might play that as well for further inspiration.
 This should be a good opportunity to flex my music and sound design chops as well, so I'm definitely looking forward to digging more into this one.
 
 The second idea I've had is a bit more ambitious, but one that I really want to try and commit to this year: Creating a native VR game to be released on Steam and other storefronts.
@@ -39,7 +39,7 @@ These will be my primary creative focuses for 2025. Keep your eyes out for updat
 Okay, I did have *one* more idea.
 
 Growing up, I played a lot of escape room games made with Flash. One series I remember was from Afro-Ninja Productions, which had these small, contained escape room scenarios.
-The one I'm specifically thinking about it AN Escape Series #3, where you have to escape from a phone booth. I think this would be a great fit for VR and want to try my hand at adapting it, so at some point this year I want to see if I can get in touch with the original creator and get their blessing to do a WebXR remake.
+The one I'm specifically thinking about is AN Escape Series #3, where you have to escape from a phone booth. I think this would be a great fit for VR and want to try my hand at adapting it, so at some point this year I want to see if I can get in touch with the original creator and get their blessing to do a WebXR remake.
 If not, I won't stress too much about it, but it would be very fun for me. Fingers crossed!
 
 ## My Work With Others
@@ -48,7 +48,7 @@ I don't often work with others, but there were a couple things to highlight from
 
 Firstly, I worked with my girlfriend to provide programming and audio assistance for her capstone project, a visual novel titled *The Mystery of Beaumont Manor*! You can play the Chapter 1 Demo online on [itch.io](https://beaumontmanor.itch.io/the-mystery-of-beaumont-manor). We'd originally planned to do a full 4 chapters, but had to scope back to finish in time. We're hoping to work on it more this year though!
 
-Secondly, I was made a maintainer on the Servo project! This is definitely the most notable open source project I've been a part of, and I'm looking forward to doing more with it in 2025. After finishing my current work on the SubtleCrypto implementation I'd like to work more on the WebXR side of things again, maybe even attempting to tackle Linux support finally. And of course there's plenty of other interesting problems to tackle, so we'll just have to see how the year shakes out.
+Secondly, I was made a maintainer on the Servo project! This is definitely the most notable open source project I've been a part of, and I'm looking forward to doing more with it in 2025. After finishing my current work on the SubtleCrypto implementation I'd like to work more on the WebXR side of things again, maybe even attempting to finally get Linux support added. And of course there's plenty of other interesting problems to tackle, so we'll just have to see how the year shakes out.
 
 ## In Summary
 
