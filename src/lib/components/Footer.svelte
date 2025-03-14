@@ -5,6 +5,7 @@
   import mastodon from '$lib/svgs/mastodon.svg?url';
   import rss from '$lib/svgs/rss.svg?url';
   import bluesky from '$lib/svgs/bluesky.svg?url';
+  import discord from '$lib/svgs/discord.svg?url';
 </script>
 
 <footer>
@@ -23,6 +24,9 @@
     </a>
     <a id='mastodon' rel="me noreferrer" href="https://arvr.social/@msub2" target='_blank'>
       <img alt='Mastodon Logo' src={mastodon} width='64' height='64' />
+    </a>
+    <a id="discord" rel="me noreferrer" href="https://discord.gg/atyarZBMnc" target="_blank">
+      <img alt="Discord Logo" src={discord} width="64" height="64">
     </a>
     <a id='twitter' href='https://www.twitter.com/msub2official' target='_blank' rel='noreferrer'>
       <img alt='Twitter Logo' src={twitter} width='64' height='64' />
