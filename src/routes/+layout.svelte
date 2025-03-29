@@ -7,6 +7,10 @@
   export let data;
 </script>
 
+<svelte:head>
+  <script defer src="https://umami.msub2.com/script.js" data-website-id="27c3e7d9-7e6e-4fcc-b576-02da1623a53f"></script>
+</svelte:head>
+
 <div class='wrapper'>
   <Header />
   
