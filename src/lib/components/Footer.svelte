@@ -10,7 +10,7 @@
 
 <footer>
   <hr />
-  <p id='copyright'>Copyright © 2025 m₂</p>
+  <p id='copyright'>Copyright © 2026 m₂</p>
   
   <nav>
     <a id='github' href='https://github.com/msub2' target='_blank' rel='noreferrer'>
