@@ -1,3 +1,5 @@
+import { render } from 'svelte/server';
+
 const siteURL = 'https://blog.msub2.com';
 const siteTitle = 'm₂ Blog';
 const siteDescription = 'The official blog for m₂, full of random musings and writings.';
@@ -10,7 +12,7 @@ export const GET = async () => {
       const post = await resolver();
       const metadata = post.metadata;
       const slug = path.slice(2, -8);
-      const content = post.default.render().html;
+      const content = render(post.default).html;
       return { ...metadata, slug, content }
     })
   )
