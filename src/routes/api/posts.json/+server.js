@@ -1,4 +1,5 @@
 import { json } from '@sveltejs/kit';
+import { render } from 'svelte/server';
 
 export const GET = async () => {
   const allPostFiles = import.meta.glob('../../posts/**/*.md')
@@ -9,7 +10,7 @@ export const GET = async () => {
       const post = await resolver();
       const metadata = post.metadata;
       const postPath = path.slice(2, -8);
-      const content = post.default.render().html;
+      const content = render(post.default).html;
 
       return {
         meta: metadata,
